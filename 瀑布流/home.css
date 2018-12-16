@@ -1,0 +1,138 @@
+body {
+	overflow-Y:scroll;
+	overflow:auto;
+	position:relative;
+	min-height:100%;
+	height:33700;
+	margin:0px;
+	width:100%;
+	}
+	.headercontent{
+		width:100%;
+		height:64px;
+		position:fixed;
+		flex-direction:row;
+		top:0;
+		z-index:999; 
+		color:#211922;
+		background-color:white;
+		padding:4px 16px; 
+		display:flex;
+		box-sizing:border-box;
+		}
+		.headercontent >.icons{
+			width:48px;
+			height:48px;
+			padding:4px;
+			margin:auto;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			box-sizing:border-box;
+		}
+			svg.icons-1{
+				color:#bd081c;
+				fill:currentColor;
+			}
+			svg.icons-3{
+				color:#8e8e8e;
+				fill:currentColor;	
+			}
+			
+			svg{
+				color:#8e8e8e;
+				fill:currentColor;
+			}
+			.headercontent >.icons:hover{
+				background-color:#efefef;
+				width:48px;
+				height:48px;
+				border-radius:24px;
+					}
+			.headercontent >.search{
+				display:flex;
+				flex:1 1 auto;
+				justify-content:center;
+				align-items:center;
+				height:40px;
+				padding-left:16px;
+				padding-right:16px;
+				margin:auto;
+				background-color:#efefef;
+				border-radius:8px;	
+			}
+			input{
+				border:none;
+				padding:0px 0px 0px 8px;
+				font-size:16px;
+				height:100%;
+				font-weight:600;
+				width:100%;
+				vertical-align:middle;
+				background-color:#efefef;	
+			}	
+			.icons-3{
+				width:100%;
+				font-size:12px;
+			}		  
+	.headerfoot{
+		border-top:1px solid #efefef;
+		width:100%;
+		height:0;
+	    margin:0;
+		border-bottom:0;
+		border-left:0;
+		top:64px;
+		position:fixed; 
+		z-index:666;
+		}
+	#container{
+		margin:20px auto;
+		position:relative; 
+		top:64px;
+		z-index:-7;
+		height:11111111px;
+		}
+		.unit{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:260px;
+			display:block;	
+			}
+			.warrap{
+				cursor: zoom-in;
+				margin: -8px;
+				padding: 8px;
+				border-radius: 6px;
+			}
+				.unit-cell{
+					box-sizing:border-box;
+					left:0;
+					bottom:0;
+					right:0;
+					top:0;
+					position:relative;
+					padding-bottom: 28px;
+					padding-left: 12px;
+					padding-right: 12px;
+					}
+				.unit-cell img{
+						}	
+		
+	.box-520 #container{
+		width:520px;	
+	}	
+	.box-780 #container{
+		width:780px;	
+	}
+	.box-1040 #container{
+		width:1040px;	
+	}		
+	
+	
+	
+	
+	
+	
+	
